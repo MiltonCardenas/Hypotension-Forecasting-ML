@@ -1,0 +1,70 @@
+====================
+Sampling Information of SBP
+                          N       Mean        SD     Median         Q1         Q3
+observations        28018.0   8.505532  2.767989   8.000000   7.000000   9.000000
+sampling_frequency  28015.0   0.047200  0.012394   0.043478   0.039216   0.050633
+sampling_period     28015.0  22.338734  4.742734  23.000000  19.750000  25.500000
+
+====================
+Sampling Information of MAP
+                          N       Mean        SD     Median         Q1         Q3
+observations        28018.0   8.505532  2.767989   8.000000   7.000000   9.000000
+sampling_frequency  28015.0   0.047200  0.012394   0.043478   0.039216   0.050633
+sampling_period     28015.0  22.338734  4.742734  23.000000  19.750000  25.500000
+
+====================
+Sampling Information of DC
+                          N       Mean        SD     Median         Q1         Q3
+observations        26209.0   6.628944  3.140061   7.000000   5.000000   9.000000
+sampling_frequency  22412.0   0.043358  0.019920   0.040984   0.038278   0.044554
+sampling_period     22412.0  24.337857  6.253162  24.400000  22.444444  26.125000
+
+====================
+Sampling Information of Pulse
+                          N       Mean        SD     Median         Q1         Q3
+observations        28018.0   8.595046  2.785802   8.000000   7.000000  10.000000
+sampling_frequency  28018.0   0.047637  0.012555   0.043902   0.039648   0.051282
+sampling_period     28018.0  22.136974  4.682883  22.777778  19.500000  25.222222
+
+====================
+Sampling Information of DT
+                          N       Mean        SD     Median         Q1         Q3
+observations        21778.0   7.091974  2.219721   7.000000   6.000000   8.000000
+sampling_frequency  21678.0   0.043425  0.020804   0.041176   0.037500   0.045802
+sampling_period     21678.0  24.390023  5.617319  24.285714  21.833333  26.666667
+
+====================
+Sampling Information of RR
+                          N       Mean         SD     Median         Q1     Q3
+observations        28018.0   7.716361   3.339233   8.000000   6.000000   9.00
+sampling_frequency  27486.0   0.045689   0.027461   0.042857   0.038462   0.05
+sampling_period     27486.0  26.578377  17.474321  23.333333  20.000000  26.00
+
+====================
+Sampling Information of O2Sat
+                          N       Mean         SD     Median         Q1         Q3
+observations        25906.0   6.983517   3.710567   7.000000   4.000000   9.000000
+sampling_frequency  25021.0   0.044033   0.030119   0.042553   0.036036   0.050847
+sampling_period     25021.0  30.931353  23.390446  23.500000  19.666667  27.750000
+
+====================
+Sampling Information of UF
+                          N       Mean        SD     Median         Q1         Q3
+observations        28013.0   8.346875  2.275101   8.000000   7.000000   9.000000
+sampling_frequency  28013.0   0.042842  0.009212   0.040816   0.038095   0.044444
+sampling_period     28013.0  24.169178  4.216678  24.500000  22.500000  26.250000
+
+====================
+Sampling Information of UF_rate
+                          N       Mean        SD     Median         Q1         Q3
+observations        28013.0   8.346875  2.275101   8.000000   7.000000   9.000000
+sampling_frequency  28013.0   0.042842  0.009212   0.040816   0.038095   0.044444
+sampling_period     28013.0  24.169178  4.216678  24.500000  22.500000  26.250000
+
+====================
+Sampling Information of BFR
+                          N       Mean        SD     Median         Q1         Q3
+observations        27993.0   7.903333  2.437665   8.000000   6.000000   9.000000
+sampling_frequency  27987.0   0.044144  0.011438   0.041152   0.038674   0.045455
+sampling_period     27987.0  23.564423  4.067186  24.300000  22.000000  25.857143
+

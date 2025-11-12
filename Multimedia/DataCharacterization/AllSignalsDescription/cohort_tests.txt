@@ -1,0 +1,13 @@
+                                   criterion  sessions_triggered  unique_sessions_deleted  sessions_remaining
+0                 UF_quality ∈ {'dg1','dg2'}                1146                     1146               39648
+1                 BP_quality ∈ {'dg1','dg2'}                4076                     3999               35649
+2              Pulse_quality ∈ {'dg1','dg2'}                 695                       75               35574
+3     Initial_weight_quality ∈ {'dg1','dg2'}                1568                      998               34576
+4     RespiratoryRateQuality ∈ {'dg1','dg2'}                2990                     2223               32353
+5   If hypotensive, has a valid positive obs                4505                      370               31983
+6            If IDH_01 then First_IDH_01 > 5                5107                      598               31385
+7                           Hypo_01 == False                6311                     1379               30006
+8                              18 ≤ age ≤ 90                 141                      127               29879
+9                           unknown_sex == 0                  40                        0               29879
+10                           asian_race == 0                 330                      206               29673
+11                           other_race == 0                2328                     1655               28018
