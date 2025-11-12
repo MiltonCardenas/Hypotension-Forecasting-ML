@@ -3,8 +3,7 @@
  ## Project's Goal
  Intradialytic hypotension (IDH) is a serious complication in dialysis patients, highly
  associated with fatal outcomes. This repository develops a real-time forecaster to predict IDH
- (SBP < 90 mmHg, MAP < 65 mmHg) within the subsequent 40 minutes of a dialysis
- session. 
+ (SBP < 90 mmHg, MAP < 65 mmHg) within the subsequent 40 minutes of a dialysis session. 
  
  # Dataset Hihglights
  The model was trained on 22,221 sessions from 3,627 patients (≈ 80% of sessions, 10.85%
@@ -13,7 +12,7 @@
  featured a low median of 4 sessions per patient, ensuring patient variety. The methodology
  employed a strict stratification and cross-validation scheme to ensure generalization to
  new patients. Feature selection used penalized lasso-logistic regression, and the nal
- model was an XGBoost classi er, which handled the ≈ 1.5% observation-wise IDH
+ model was an XGBoost classifier, which handled the ≈ 1.5% observation-wise IDH
  incidence via penalized learning.
 
  ## Predictors
