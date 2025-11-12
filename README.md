@@ -5,7 +5,7 @@
  associated with fatal outcomes. This repository develops a real-time forecaster to predict IDH
  (SBP < 90 mmHg, MAP < 65 mmHg) within the subsequent 40 minutes of a dialysis session. 
  
- # Dataset Hihglights
+ # Dataset Highlights
  The model was trained on 22,221 sessions from 3,627 patients (≈ 80% of sessions, 10.85%
  IDH rate) and validated on a held-out set of 5,797 sessions from 907 unseen patients
  (≈ 20%, 10.66% IDH rate). Data was sourced from multiple UPMC hospitals and
