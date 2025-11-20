@@ -55,11 +55,11 @@
   * Cumulative Dialysis Temperature Variability
 
  ## Performance and findings
- On unseen patients, the model achieved an area under the receiver operating curve of
- AUROC=0.878andanareaundertheprecision-recall curve of AUPRC = 0.132. Session
- wise, it raised an alarm within 40 minutes before onset in 80.4% of hypotensive sessions.
- Observation-wise, it detected 73.0% of pre-IDH events with a precision of 6.8%. As a risk
- forecaster, the model achieved a calibrated log-loss of 0.061, with probability trajectories
+ On unseen patients, the model achieved an area under the receiver operating curve of AUROC=0.878 and
+ an area under the precision-recall curve of AUPRC = 0.132. Session-wise, it raised an alarm within 
+ 40 minutes before onset in 80.4% of hypotensive sessions. Observation-wise, it detected 73.0% of 
+ pre-IDH events with a precision of 6.8%. 
+ As a risk forecaster, the model achieved a calibrated log-loss of 0.061, with probability trajectories
  clearly identifying higher risk in hypotensive sessions. Model explanation confirmed blood 
  pressure signals and fuid-removal settings as top predictors. Novel findings include the
  greater importance of the time-weighted average of ultrafiltration rate compared to its
@@ -77,10 +77,10 @@
 
 ## Risk Trajectories Summary
 ### Hypotensive and non-hypotensive sessions
-![Non-Hypotension Risk Example 1](Multimedia\RiskTrajectories\png_images\risk_vs_elapsed_time_all.png)
+![Non-Hypotension Risk Example 1](Multimedia/RiskTrajectories/png_images/risk_vs_elapsed_time_all.png)
 
 ### Hypotensive sessions
-![Non-Hypotension Risk Example 2](Multimedia\RiskTrajectories\png_images\risk_vs_time_until_hypotension_hs.png)
+![Non-Hypotension Risk Example 2](Multimedia/RiskTrajectories/png_images/risk_vs_time_until_hypotension_hs.png)
 
  ## Notes:
  - This is a curated subset of the project, showcasing the principal 
