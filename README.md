@@ -18,7 +18,41 @@
  ## Predictors
  Predictors included diverse transformations of vital-sign and dialysis-related
  signals (e.g., weighted averages, slopes, variability) evaluated over rolling, cumulative,
- and past-session information.
+ and past-session information. The selection was done by means of a lasso constrained logistic regression 
+ that provided the final 21 features for the model.
+
+### Final Predictors List
+
+* **General Demographics & Vitals**
+  * Systolic Blood Pressure (SBP)
+  * Mean Arterial Pressure (MAP)
+  * Blood Flow Rate
+  * Age
+
+* **Ultrafiltration Metrics**
+  * Current Total Ultrafiltration
+  * Cumulative Ultrafiltration Rate (Time-Weighted Average)
+
+* **45-Minute Window Statistics**
+  * Minimum SBP
+  * Minimum MAP
+  * Maximum Pulse
+  * Minimum Oxygen Saturation
+  * Maximum Respiratory Rate
+
+* **Historical & Previous Session Data**
+  * Average SBP Delta (Last 6 Sessions)
+  * IDH Incidence (Last 6 Sessions)
+  * Maximum MAP Area Under the Threshold (Last 6 Sessions)
+  * MAP Time-Weighted Average (Last Session)
+  * SBP Variability (Last Session)
+  * SBP Area Under the Threshold (Last Session)
+  * SBP Variability at Last Hypotensive Onset
+
+* **Cumulative Variability Metrics**
+  * Cumulative SBP Variability
+  * Cumulative Pulse Variability
+  * Cumulative Dialysis Temperature Variability
 
  ## Performance and findings
  On unseen patients, the model achieved an area under the receiver operating curve of
@@ -31,6 +65,22 @@
  greater importance of the time-weighted average of ultrafiltration rate compared to its
  instantaneous value, and the identification of seven predictors from earlier dialysis sessions
  that contribute to dynamic risk assessment in the current session.
+
+## Risk Examples (Held-out set)
+### Hypotensive Sessions
+![Hypotension Risk Example 1](Multimedia/RiskTrajectories/png_images/hypo_1.png)
+![Hypotension Risk Example 2](Multimedia/RiskTrajectories/png_images/hypo_2.png)
+
+### Non-hypotensive sessions
+![Non-Hypotension Risk Example 1](Multimedia/RiskTrajectories/png_images/nonhypo_1.png)
+![Non-Hypotension Risk Example 2](Multimedia/RiskTrajectories/png_images/nonhypo_2.png)
+
+## Risk Trajectories Summary
+### Hypotensive and non-hypotensive sessions
+![Non-Hypotension Risk Example 1](Multimedia\RiskTrajectories\png_images\risk_vs_elapsed_time_all.png)
+
+### Hypotensive sessions
+![Non-Hypotension Risk Example 2](Multimedia\RiskTrajectories\png_images\risk_vs_time_until_hypotension_hs.png)
 
  ## Notes:
  - This is a curated subset of the project, showcasing the principal 
