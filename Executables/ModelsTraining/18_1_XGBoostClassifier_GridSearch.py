@@ -41,7 +41,7 @@ from h2o.estimators import H2OXGBoostEstimator
 
 #: Custom Libraries -------------
 DIR_CURRENT = r'/ihome/rparker/mdc147/PhD_Project';  os.chdir(DIR_CURRENT)
-sys.path.append(os.path.join(DIR_CURRENT, 'Auxiliar_codes'))
+sys.path.append(os.path.join(DIR_CURRENT, 'Utils'))
 from classes_repository import PathManager, GlobalParameters, ProcessingAuxiliar
 from machine_learning_auxiliar import (
     FeaturesManagerV2, 

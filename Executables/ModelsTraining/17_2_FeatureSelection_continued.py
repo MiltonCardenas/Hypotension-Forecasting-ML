@@ -12,7 +12,7 @@ from scipy.special import expit
 from matplotlib.patches import Patch
 # -------------------------------
 DIR_CURRENT = r'/ihome/rparker/mdc147/PhD_Project';  os.chdir(DIR_CURRENT)
-sys.path.append(os.path.join(DIR_CURRENT, 'Auxiliar_codes'))
+sys.path.append(os.path.join(DIR_CURRENT, 'Utils'))
 # -------------------------------
 from characterization import StandardFig
 from classes_repository import PathManager

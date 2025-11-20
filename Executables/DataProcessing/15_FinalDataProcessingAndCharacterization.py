@@ -40,12 +40,12 @@ main_dir = "/ihome/rparker/mdc147/PhD_Project"; os.chdir(main_dir)
 import matplotlib.ticker as ticker
 import matplotlib.pyplot as plt
 
-from Auxiliar_codes.classes_repository import PathManager as P
-from Auxiliar_codes.classes_repository import GlobalParameters as GP
-from Auxiliar_codes.classes_repository import StandardNames as SN
-from Auxiliar_codes.classes_repository import ProcessingAuxiliar as PA
-from Auxiliar_codes                    import dynamic_processing, static_processing, characterization
-from Auxiliar_codes.machine_learning_auxiliar import FeaturesManagerV2
+from Utils.classes_repository import PathManager as P
+from Utils.classes_repository import GlobalParameters as GP
+from Utils.classes_repository import StandardNames as SN
+from Utils.classes_repository import ProcessingAuxiliar as PA
+from Utils                    import dynamic_processing, static_processing, characterization
+from Utils.machine_learning_auxiliar import FeaturesManagerV2
 
 #: INSTANCES -----------------------------------------------------
 pm      = P().paths

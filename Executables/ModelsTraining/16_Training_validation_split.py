@@ -39,7 +39,7 @@ main_dir = "/ihome/rparker/mdc147/PhD_Project"
 os.chdir(main_dir)
 
 # Instances --------------------------------------------------------------
-sys.path.append("Auxiliar_codes")
+sys.path.append("Utils")
 from classes_repository import PathManager, GlobalParameters, ProcessingAuxiliar
 from characterization import StandardFig
 pm = PathManager().paths

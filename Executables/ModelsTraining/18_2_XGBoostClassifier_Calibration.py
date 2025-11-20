@@ -56,7 +56,7 @@ from matplotlib.ticker import FormatStrFormatter
 from IPython.display import display
 
 #: LOCAL TOOLS -------------
-sys.path.append("Auxiliar_codes")
+sys.path.append("Utils")
 from characterization import StandardFig
 from machine_learning_auxiliar import (
     FeaturesManagerV2,
@@ -67,7 +67,7 @@ from classes_repository import PathManager, StandardNames
 
 #: WORKING DIRECTORY -------
 DIR_CURRENT = r'/ihome/rparker/mdc147/PhD_Project';  os.chdir(DIR_CURRENT)
-sys.path.append(os.path.join(DIR_CURRENT, 'Auxiliar_codes'))
+sys.path.append(os.path.join(DIR_CURRENT, 'Utils'))
 
 #: INSTANCES ---------------
 pm = PathManager().paths

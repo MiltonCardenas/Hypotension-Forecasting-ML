@@ -52,7 +52,7 @@ from pandas.errors import DtypeWarning
 import time, datetime
 import sys
 main_dir = "/ihome/rparker/mdc147/PhD_Project"; os.chdir(main_dir)
-sys.path.append(os.path.join(main_dir, "Auxiliar_codes"))
+sys.path.append(os.path.join(main_dir, "Utils"))
 
 from classes_repository import PathManager as P
 from classes_repository import GlobalParameters as GP

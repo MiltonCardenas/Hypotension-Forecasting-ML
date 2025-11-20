@@ -40,13 +40,13 @@ import os
 import time, datetime
 main_dir = "/ihome/rparker/mdc147/PhD_Project"; os.chdir(main_dir)
 
-from Auxiliar_codes.classes_repository import PathManager as P
-from Auxiliar_codes.classes_repository import GlobalParameters as GP
-from Auxiliar_codes.classes_repository import StandardNames as SN
-from Auxiliar_codes.classes_repository import ProcessingAuxiliar as PA
+from Utils.classes_repository import PathManager as P
+from Utils.classes_repository import GlobalParameters as GP
+from Utils.classes_repository import StandardNames as SN
+from Utils.classes_repository import ProcessingAuxiliar as PA
 
-from Auxiliar_codes import dynamic_processing
-from Auxiliar_codes import static_processing
+from Utils import dynamic_processing
+from Utils import static_processing
 
 #: INSTANCES -----------------------------------------------
 pm      = P().paths
